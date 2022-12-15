@@ -1,0 +1,202 @@
+@media screen and (max-width: 1024px) {
+	footer {
+		padding: 50px 0;
+	}
+}
+
+@media screen and (max-width: 930px) {
+	main .mis-proyectos .proyectos {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	header .navegacion {
+		width: 70%;
+		margin: 45px 0;
+		align-self: center;
+		/* Flexbox */
+		display: flex;
+		justify-content: space-around;
+	}
+
+	header .navegacion .enlace {
+		margin-left: 0px;
+		border-bottom: 1px solid rgba(255,255,255,0.3);
+	}
+
+	header .nombre {
+		padding: 25px 30px;
+		margin-top: 150px;
+	}
+
+	header .nombre .titulo {
+		font-size: 50px;
+	}
+
+	header .nombre .parrafo {
+		font-size: 25px;
+	}
+
+	footer .red-social {
+		margin-right: 20px;
+	}
+
+	footer .instagram {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	header .navegacion {
+		width: 100%;
+	}
+
+	header .nombre {
+		padding: 20px 25px;
+		margin-top: 100px;
+	}
+
+	header .nombre .titulo {
+		font-size: 40px;
+	}
+
+	header .nombre .parrafo {
+		font-size: 20px;
+	}
+
+	main .acerca-de .articulo {
+		padding: 0 5%;
+	}
+
+	main .acerca-de .articulo .titulo {
+		font-size: 35px;
+		margin-bottom: 30px;
+	}
+
+	main .mis-proyectos .proyectos {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, 1fr);
+	}
+
+	main .contacto .formulario {
+		width: 90%;
+	}
+
+	main .contacto .formulario .nombre {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	main .contacto .formulario .correo {
+		width: 100%;
+	}
+
+	main .contacto .formulario .area-texto {
+		height: 120px;
+	}
+
+	footer .red-social {
+		margin-right: 10px;
+		padding: 10px 20px;
+		border-radius: 5px;
+	}
+
+	footer .instagram {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	header .navegacion .enlace {
+		font-size: 13px;
+		font-weight: 300;
+		padding-bottom: 5px;
+	}
+
+	header .nombre {
+		padding: 20px 25px;
+		margin-top: 75px;
+	}
+
+	header .nombre .titulo {
+		font-size: 30px;
+	}
+
+	header .nombre .parrafo {
+		font-size: 15px;
+	}
+
+	main .acerca-de .imagen {
+		width: 120px; height: 120px;
+		/* Posicionar */
+		bottom: 60px;
+	}
+
+	main .acerca-de .articulo .titulo {
+		font-size: 25px;
+	}
+
+	main .acerca-de .articulo .parrafo {
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+	main .mis-proyectos {
+		padding-top: 50px;
+	}
+
+	main .mis-proyectos .titulo {
+		font-size: 25px;
+		margin-bottom: 30px;
+	}
+
+	main .mis-proyectos .proyectos .proyecto .imagen {
+		margin-bottom: 15px;
+	}
+
+	main .mis-proyectos .proyectos .proyecto .nombre-proyecto {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+
+	main .contacto {
+		padding-top: 50px;
+	}
+
+	main .contacto .titulo {
+		font-size: 25px;
+		margin-bottom: 30px;
+	}
+
+	main .contacto .formulario {
+		width: 95%;
+	}
+
+	main .contacto .formulario .nombre,
+	main .contacto .formulario .correo,
+	main .contacto .formulario .area-texto,
+	main .contacto .formulario .btn-enviar,
+	::placeholder {
+		font-size: 14px;
+	}
+
+	footer .red-social .imagen {
+		width: 20px;
+		vertical-align: top;
+	}
+
+}
+
+@media screen and (max-width: 370px) {
+	footer .red-social {
+		margin-right: 5px;
+		padding: 5px 15px;
+		border-radius: 5px;
+	}
+
+	footer .instagram {
+		margin-right: 0;
+	}
+}

@@ -1,0 +1,86 @@
+main .contacto {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 75px;
+}
+
+main .contacto .titulo {
+	color: #3895ea;
+	font-weight: 400;
+	font-size: 35px;
+	margin-bottom: 50px;
+	cursor: default;
+}
+
+main .contacto .formulario {
+	width: 80%;
+	margin: 0 auto;
+	/* Flexbox */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+main .contacto .formulario .nombre, 
+main .contacto .formulario .correo, 
+main .contacto .formulario .area-texto {
+	padding: 10px;
+	border: 2px solid #cecece;
+	border-radius: 5px;
+	margin-bottom: 2%;
+}
+
+main .contacto .formulario .nombre:focus, 
+main .contacto .formulario .correo:focus, 
+main .contacto .formulario .area-texto:focus {
+	outline-color: #3895ea;
+}
+
+main .contacto .formulario .nombre {
+	color: rgb(127.5, 127.5, 127.5);
+	font-size: 21px;
+	font-weight: 300;
+	width: 49%;
+	margin-right: 2%;
+}
+
+::placeholder {
+	color: #a4a4a4;
+	font-size: 21px;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+}
+
+main .contacto .formulario .correo {
+	color: rgb(127.5, 127.5, 127.5);
+	font-size: 21px;
+	font-weight: 300;
+	width: 49%;
+}
+
+main .contacto .formulario .area-texto {
+	color: rgb(127.5, 127.5, 127.5);
+	font-size: 21px;
+	font-weight: 300;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 45px;
+	max-height: 150px;
+}
+
+main .contacto .formulario .btn-enviar {
+	color: white;
+	background: #3895ea;
+	font-size: 19px;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px 25px;
+	border: none;
+	border-radius: 3px;
+	transition: 0.3s all ease;
+}
+
+main .contacto .formulario .btn-enviar:hover {
+	background: #387bea;
+}

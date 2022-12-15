@@ -1,0 +1,57 @@
+footer {
+	background: #1e2b38;
+	padding: 75px 0;
+	/* Flexbox */
+	display: flex;
+	justify-content: center;
+}
+
+footer .red-social {
+	color: white;
+	margin-right: 60px;
+	padding: 20px 30px;
+	border-radius: 5px;
+}
+
+footer .instagram {
+	margin-right: 0;
+}
+
+footer .red-social .imagen {
+	width: 30px;
+	vertical-align: top;
+}
+
+footer .twitter {
+	transition: 0.3s all ease;
+}
+footer .facebook {
+	transition: 0.3s all ease;
+}
+footer .youtube {
+	transition: 0.3s all ease;
+}
+footer .github {
+	transition: 0.3s all ease;
+}
+
+footer .instagram {
+	transition: 0.3s all ease;
+}
+
+footer .twitter:hover {
+	background: #1da1f2;
+}
+footer .facebook:hover {
+	background: #3b5998;
+}
+footer .youtube:hover {
+	background: #cd210f;
+}
+footer .github:hover {
+	background: #666666;
+}
+
+footer .instagram:hover {
+	background: #3f729b;
+}

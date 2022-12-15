@@ -1,0 +1,56 @@
+header {
+	background: url('../media/bg.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	/*Flexbox*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+header .navegacion {
+	margin: 45px 0;
+	margin-bottom: 40px;
+	margin-right: 10%;
+	align-self: flex-end;
+}
+
+header .navegacion .enlace {
+	color: white;
+	text-decoration: none;
+	font-weight: 300;
+	padding-bottom: 5px;
+	margin-left: 30px;
+}
+
+header .navegacion .enlace:hover {
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+header .nombre {
+	color: white;
+	text-align: center;
+	padding: 25px 30px;
+	border: 3px solid rgba(255,255,255,0.3);
+	border-radius: 10px;
+	margin: 180px 0;
+	cursor: default;
+	transition: 0.3s all ease;
+}
+
+header .nombre:hover {
+	transform: scale(1.1);
+	border: 3px solid rgba(255,255,255,0.7);
+}
+
+header .nombre .titulo {
+	font-size: 60px;
+	font-weight: 500;
+}
+
+header .nombre .parrafo {
+	font-size: 30px;
+	font-weight: 500;
+}
