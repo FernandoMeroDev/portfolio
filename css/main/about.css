@@ -1,5 +1,5 @@
-main .acerca-de .imagen {
-	background: url('../../media/elaina.jpg');
+main .about .image {
+	background: url('../../media/photo.jpg');
 	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -9,33 +9,33 @@ main .acerca-de .imagen {
 	box-shadow: 0 0 0 5px rgba(255,255,255,0.3);
 	margin: 0 auto;
 	transition: 0.3s all ease;
-	/* Posicionar */
+	/* Position */
 	position: relative;
 	bottom: 75px;
 }
 
-main .acerca-de .articulo {
+main .about .article {
 	text-align: center;
 	padding: 0 20%;
-	/* Posicionar */
+	/* Position */
 	position: relative;
 	bottom: 25px;
 }
 
-main .acerca-de .articulo .titulo {
+main .about .article .title {
 	color: #dd820d;
 	font-weight: 400;
 	font-size: 35px;
 	margin-bottom: 50px;
 }
 
-main .acerca-de .articulo .parrafo {
+main .about .article .paragraph {
 	color: #5a5a5a; 
 	font-size: 17px;
 	line-height: 28px;
 	margin-bottom: 25px;
 }
 
-main .acerca-de .articulo .parrafo .enlace  {
+main .about .article .paragraph .link  {
 	color: #3895ea;
 }

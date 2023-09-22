@@ -1,10 +1,10 @@
-main .contacto {
+main .contact {
 	text-align: center;
 	padding-top: 100px;
 	padding-bottom: 75px;
 }
 
-main .contacto .titulo {
+main .contact .title {
 	color: #3895ea;
 	font-weight: 400;
 	font-size: 35px;
@@ -12,7 +12,7 @@ main .contacto .titulo {
 	cursor: default;
 }
 
-main .contacto .formulario {
+main .contact .form {
 	width: 80%;
 	margin: 0 auto;
 	/* Flexbox */
@@ -21,22 +21,22 @@ main .contacto .formulario {
 	justify-content: center;
 }
 
-main .contacto .formulario .nombre, 
-main .contacto .formulario .correo, 
-main .contacto .formulario .area-texto {
+main .contact .form .name, 
+main .contact .form .email, 
+main .contact .form .text-area {
 	padding: 10px;
 	border: 2px solid #cecece;
 	border-radius: 5px;
 	margin-bottom: 2%;
 }
 
-main .contacto .formulario .nombre:focus, 
-main .contacto .formulario .correo:focus, 
-main .contacto .formulario .area-texto:focus {
+main .contact .form .name:focus, 
+main .contact .form .email:focus, 
+main .contact .form .text-area:focus {
 	outline-color: #3895ea;
 }
 
-main .contacto .formulario .nombre {
+main .contact .form .name {
 	color: rgb(127.5, 127.5, 127.5);
 	font-size: 21px;
 	font-weight: 300;
@@ -52,7 +52,7 @@ main .contacto .formulario .nombre {
 	font-family: 'Montserrat', sans-serif;
 }
 
-main .contacto .formulario .correo {
+main .contact .form .email {
 	color: rgb(127.5, 127.5, 127.5);
 	font-size: 21px;
 	font-weight: 300;
@@ -60,7 +60,7 @@ main .contacto .formulario .correo {
 	width: 49%;
 }
 
-main .contacto .formulario .area-texto {
+main .contact .form .text-area {
 	color: rgb(127.5, 127.5, 127.5);
 	font-size: 21px;
 	font-weight: 300;
@@ -72,7 +72,7 @@ main .contacto .formulario .area-texto {
 	max-height: 150px;
 }
 
-main .contacto .formulario .btn-enviar {
+main .contact .form .btn-send {
 	color: white;
 	background: #3895ea;
 	font-size: 19px;
@@ -84,6 +84,6 @@ main .contacto .formulario .btn-enviar {
 	transition: 0.3s all ease;
 }
 
-main .contacto .formulario .btn-enviar:hover {
+main .contact .form .btn-send:hover {
 	background: #387bea;
 }

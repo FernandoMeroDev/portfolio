@@ -10,14 +10,14 @@ header {
 }
 
 
-header .navegacion {
+header .navigation {
 	margin: 45px 0;
 	margin-bottom: 40px;
 	margin-right: 10%;
 	align-self: flex-end;
 }
 
-header .navegacion .enlace {
+header .navigation .link {
 	color: white;
 	text-decoration: none;
 	font-weight: 300;
@@ -25,11 +25,11 @@ header .navegacion .enlace {
 	margin-left: 30px;
 }
 
-header .navegacion .enlace:hover {
+header .navigation .link:hover {
 	border-bottom: 1px solid rgba(255,255,255,0.3);
 }
 
-header .nombre {
+header .name {
 	color: white;
 	text-align: center;
 	padding: 25px 30px;
@@ -40,17 +40,17 @@ header .nombre {
 	transition: 0.3s all ease;
 }
 
-header .nombre:hover {
+header .name:hover {
 	transform: scale(1.1);
 	border: 3px solid rgba(255,255,255,0.7);
 }
 
-header .nombre .titulo {
+header .name .title {
 	font-size: 60px;
 	font-weight: 500;
 }
 
-header .nombre .parrafo {
+header .name .paragraph {
 	font-size: 30px;
 	font-weight: 500;
 }

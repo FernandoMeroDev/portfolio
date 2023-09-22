@@ -5,14 +5,14 @@
 }
 
 @media screen and (max-width: 930px) {
-	main .mis-proyectos .proyectos {
+	main .my-proyects .proyects {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr;
 	}
 }
 
 @media screen and (max-width: 768px) {
-	header .navegacion {
+	header .navigation {
 		width: 70%;
 		margin: 45px 0;
 		align-self: center;
@@ -21,25 +21,25 @@
 		justify-content: space-around;
 	}
 
-	header .navegacion .enlace {
+	header .navigation .link {
 		margin-left: 0px;
 		border-bottom: 1px solid rgba(255,255,255,0.3);
 	}
 
-	header .nombre {
+	header .name {
 		padding: 25px 30px;
 		margin-top: 150px;
 	}
 
-	header .nombre .titulo {
+	header .name .title {
 		font-size: 50px;
 	}
 
-	header .nombre .parrafo {
+	header .name .paragraph {
 		font-size: 25px;
 	}
 
-	footer .red-social {
+	footer .social-network {
 		margin-right: 20px;
 	}
 
@@ -49,55 +49,55 @@
 }
 
 @media screen and (max-width: 530px) {
-	header .navegacion {
+	header .navigation {
 		width: 100%;
 	}
 
-	header .nombre {
+	header .name {
 		padding: 20px 25px;
 		margin-top: 100px;
 	}
 
-	header .nombre .titulo {
+	header .name .title {
 		font-size: 40px;
 	}
 
-	header .nombre .parrafo {
+	header .name .paragraph {
 		font-size: 20px;
 	}
 
-	main .acerca-de .articulo {
+	main .about .article {
 		padding: 0 5%;
 	}
 
-	main .acerca-de .articulo .titulo {
+	main .about .article .title {
 		font-size: 35px;
 		margin-bottom: 30px;
 	}
 
-	main .mis-proyectos .proyectos {
+	main .my-proyects .proyects {
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(4, 1fr);
 	}
 
-	main .contacto .formulario {
+	main .contact .form {
 		width: 90%;
 	}
 
-	main .contacto .formulario .nombre {
+	main .contact .form .name {
 		width: 100%;
 		margin-right: 0;
 	}
 
-	main .contacto .formulario .correo {
+	main .contact .form .email {
 		width: 100%;
 	}
 
-	main .contacto .formulario .area-texto {
+	main .contact .form .text-area {
 		height: 120px;
 	}
 
-	footer .red-social {
+	footer .social-network {
 		margin-right: 10px;
 		padding: 10px 20px;
 		border-radius: 5px;
@@ -109,80 +109,80 @@
 }
 
 @media screen and (max-width: 425px) {
-	header .navegacion .enlace {
+	header .navigation .link {
 		font-size: 13px;
 		font-weight: 300;
 		padding-bottom: 5px;
 	}
 
-	header .nombre {
+	header .name {
 		padding: 20px 25px;
 		margin-top: 75px;
 	}
 
-	header .nombre .titulo {
+	header .name .title {
 		font-size: 30px;
 	}
 
-	header .nombre .parrafo {
+	header .name .paragraph {
 		font-size: 15px;
 	}
 
-	main .acerca-de .imagen {
+	main .about .image {
 		width: 120px; height: 120px;
 		/* Posicionar */
 		bottom: 60px;
 	}
 
-	main .acerca-de .articulo .titulo {
+	main .about .article .title {
 		font-size: 25px;
 	}
 
-	main .acerca-de .articulo .parrafo {
+	main .about .article .paragraph {
 		font-size: 14px;
 		line-height: 28px;
 	}
 
-	main .mis-proyectos {
+	main .my-proyects {
 		padding-top: 50px;
 	}
 
-	main .mis-proyectos .titulo {
+	main .my-proyects .title {
 		font-size: 25px;
 		margin-bottom: 30px;
 	}
 
-	main .mis-proyectos .proyectos .proyecto .imagen {
+	main .my-proyects .proyects .proyect .image {
 		margin-bottom: 15px;
 	}
 
-	main .mis-proyectos .proyectos .proyecto .nombre-proyecto {
+	main .my-proyects .proyects .proyect .proyect-name {
 		font-size: 16px;
 		margin-bottom: 20px;
 	}
 
-	main .contacto {
+	main .contact {
 		padding-top: 50px;
 	}
 
-	main .contacto .titulo {
+	main .contact .title {
 		font-size: 25px;
 		margin-bottom: 30px;
 	}
 
-	main .contacto .formulario {
+	main .contact .form {
 		width: 95%;
 	}
 
-	main .contacto .formulario .nombre,
-	main .contacto .formulario .correo,
-	main .contacto .formulario .area-texto,
-	main .contacto .formulario .btn-enviar,
+	main .contact .form .name,
+	main .contact .form .email,
+	main .contact .form .text-area,
+	main .contact .form .btn-send,
 	::placeholder {
 		font-size: 14px;
 	}
 
-	footer .red-social .imagen {
+	footer .social-network .image {
 		width: 20px;
 		vertical-align: top;
 	}
@@ -190,7 +190,7 @@
 }
 
 @media screen and (max-width: 370px) {
-	footer .red-social {
+	footer .social-network {
 		margin-right: 5px;
 		padding: 5px 15px;
 		border-radius: 5px;

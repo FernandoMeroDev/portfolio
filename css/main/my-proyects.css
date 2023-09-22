@@ -1,10 +1,10 @@
-main .mis-proyectos {
+main .my-proyects {
 	background: #f2f2f2;
 	padding-top: 100px;
 	padding-bottom: 75px;
 	text-align: center;
 }
-main .mis-proyectos .titulo {
+main .my-proyects .title {
 	color: #323068;
 	font-weight: 400;
 	font-size: 35px;
@@ -12,7 +12,7 @@ main .mis-proyectos .titulo {
 	cursor: default;
 }
 
-main .mis-proyectos .proyectos {
+main .my-proyects .proyects {
 	width: 80%;
 	margin: 0 10%;
 	/*CSS Grid*/
@@ -22,37 +22,32 @@ main .mis-proyectos .proyectos {
 	grid-gap: 30px;
 }
 
-main .mis-proyectos .proyectos .proyecto {
+main .my-proyects .proyects .proyect {
 	text-decoration: none;
+	transition-property: all;
+	transition-timing-function: ease;
+	transition-duration: 1s;
 }
 
-@keyframes proyecto {
-	0% { transform: scale(1, 1); }
-	50% { transform: scale(1.1, 1.1); }
-	100% { transform: scale(1, 1); }
+main .my-proyects .proyects .proyect:hover {
+	transform: scale(1.1, 1.1);
 }
 
-main .mis-proyectos .proyectos .proyecto:hover {
-	animation-name: proyecto;
-	animation-duration: 1s;
-	animation-timing-function: ease;
-}
-
-main .mis-proyectos .proyectos .proyecto .imagen {
+main .my-proyects .proyects .proyect .image {
 	width: 100%;
 	border: 2px solid rgba(73, 163, 214, 0.5);
 	border-radius: 5px;
 	margin-bottom: 25px;
 }
 
-main .mis-proyectos .proyectos .proyecto .nombre-proyecto {
+main .my-proyects .proyects .proyect .proyect-name {
 	color: rgba(73, 163, 214, 1);
 	font-weight: 400;
 	font-size: 19px;
 	margin-bottom: 25px;
 }
 
-main .mis-proyectos .proyectos .proyecto .parrafo {
+main .my-proyects .proyects .proyect .paragraph {
 	font-size: 13px;
 	opacity: 0.5;
 }
