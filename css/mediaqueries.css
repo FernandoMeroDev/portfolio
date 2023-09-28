@@ -5,16 +5,21 @@
 }
 
 @media screen and (max-width: 930px) {
-	main .my-proyects .proyects {
+	main .my-projects .projects {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr;
+	}
+
+	main .web-development .projects {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	header .navigation {
 		width: 70%;
-		margin: 45px 0;
+		margin: 0px;
 		align-self: center;
 		/* Flexbox */
 		display: flex;
@@ -74,9 +79,14 @@
 		margin-bottom: 30px;
 	}
 
-	main .my-proyects .proyects {
+	main .my-projects .projects {
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(4, 1fr);
+	}
+
+	main .web-development .projects {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
 	}
 
 	main .contact .form {
@@ -142,20 +152,20 @@
 		line-height: 28px;
 	}
 
-	main .my-proyects {
+	main .my-projects {
 		padding-top: 50px;
 	}
 
-	main .my-proyects .title {
+	main .my-projects .title {
 		font-size: 25px;
 		margin-bottom: 30px;
 	}
 
-	main .my-proyects .proyects .proyect .image {
+	main .my-projects .projects .project .image {
 		margin-bottom: 15px;
 	}
 
-	main .my-proyects .proyects .proyect .proyect-name {
+	main .my-projects .projects .project .project-name {
 		font-size: 16px;
 		margin-bottom: 20px;
 	}

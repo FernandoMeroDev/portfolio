@@ -7,7 +7,16 @@
 	<link rel="icon" href="media/icon.png">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="styles.css">
-	<script src="js/script.js" defer></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // Here I am starting the emailjs service with my public key of my account
+			// You can see the public key here: https://dashboard.emailjs.com/admin/account
+            emailjs.init('SQEhufhOJNX-BFeFS');
+        })();
+    </script>
+    <script src="js/email.js" defer></script>
+	<script src="js/navigation.js" defer></script>
 </head>
 <body>
 	<header>
@@ -32,66 +41,68 @@
 				</p>
 			</article>
 		</section>
-		<section class="my-proyects web-design">
+		<section class="my-projects web-design">
 			<h2 class="title" id="myProjectsSectionTitle">My Web Desing Proyects</h2>
-			<div class="proyects">
+			<div class="projects">
 				<!-- Project -->
-				<a href="https://ketteiprot.github.io/HolaMundoWebCopy/" class="proyect">
-					<img class="image" src="media/proyects/HolaMundoWebCopy.jpg" alt="Proyecto Dos de CSS3"> 
-					<h3 class="proyect-name">Layout of a Blog</h3>
+				<a href="https://ketteiprot.github.io/HolaMundoWebCopy/" class="project">
+					<img class="image" src="media/projects/HolaMundoWebCopy.jpg" alt="Proyecto Dos de CSS3"> 
+					<h3 class="project-name">Layout of a Blog</h3>
 					<p class="paragraph">HTML - CSS - Flexbox - Grid</p>
 				</a>
 				<!-- Project -->
-				<a href="https://ketteiprot.github.io/FalconMastersWebCopy/" class="proyect">
-					<img class="image" src="media/proyects/FalconMastersWebCopy.jpg" alt="Proyecto Uno de CSS3"> 
-					<h3 class="proyect-name">Layout of a Courses Platform</h3>
+				<a href="https://ketteiprot.github.io/FalconMastersWebCopy/" class="project">
+					<img class="image" src="media/projects/FalconMastersWebCopy.jpg" alt="Proyecto Uno de CSS3"> 
+					<h3 class="project-name">Layout of a Courses Platform</h3>
 					<p class="paragraph">HTML - CSS - Flexbox - Grid</p>
 				</a>
 				<!-- Project -->
-				<a href="https://ketteiprot.github.io/DilanRomero/" class="proyect">
-					<img class="image" src="media/proyects/DilanRomero.jpg" alt="Landing Page project image"> 
-					<h3 class="proyect-name">Design of a Landing Page</h3>
+				<a href="https://ketteiprot.github.io/DilanRomero/" class="project">
+					<img class="image" src="media/projects/DilanRomero.jpg" alt="Landing Page project image"> 
+					<h3 class="project-name">Design of a Landing Page</h3>
 					<p class="paragraph">HTML - CSS - JS - Flexbox - Grid</p>
 				</a>
 				<!-- Project -->
-				<a href="https://ketteiprot.github.io/weapons/" class="proyect">
-					<img class="image" src="media/proyects/weapons.jpg" alt="Weapons Gallery project image"> 
-					<h3 class="proyect-name">Design of a Weapons Gallery</h3>
+				<a href="https://ketteiprot.github.io/weapons/" class="project">
+					<img class="image" src="media/projects/weapons.jpg" alt="Weapons Gallery project image"> 
+					<h3 class="project-name">Design of a Weapons Gallery</h3>
 					<p class="paragraph">HTML - CSS - JS - Bootstrap 5</p>
 				</a>
 				<!-- Project -->
-				<a href="https://ketteiprot.github.io/AnimeGallery/" class="proyect">
-					<img class="image" src="media/proyects/AnimeGallery.jpg" alt="Anime Gallery project image"> 
-					<h3 class="proyect-name">Design of a Anime Gallery</h3>
+				<a href="https://ketteiprot.github.io/AnimeGallery/" class="project">
+					<img class="image" src="media/projects/AnimeGallery.jpg" alt="Anime Gallery project image"> 
+					<h3 class="project-name">Design of a Anime Gallery</h3>
 					<p class="paragraph">HTML - CSS - JS - Flexbox</p>
 				</a>
 				<!-- Project -->
-				<a href="https://ketteiprot.github.io/ittlc/" class="proyect">
-					<img class="image" src="media/proyects/ittlc.jpg" alt="Anime Gallery project image"> 
-					<h3 class="proyect-name">Design of a institutional page</h3>
+				<a href="https://ketteiprot.github.io/ittlc/" class="project">
+					<img class="image" src="media/projects/ittlc.jpg" alt="Anime Gallery project image"> 
+					<h3 class="project-name">Design of a institutional page</h3>
 					<p class="paragraph">HTML - CSS - JS - Flexbox - Grid</p>
 				</a>
 			</div>
 		</section>
-		<section class="my-proyects web-development">
+		<section class="my-projects web-development">
 			<h2 class="title">My Web Development Proyects</h2>
-			<div class="proyects">
+			<div class="projects">
 				<!-- Project -->
-				<a href="https://ketteiprot.github.io/ittlc/" class="proyect">
-					<img class="image" src="media/proyects/liquorStore.jpg" alt="SysLicor project image"> 
-					<h3 class="proyect-name">Inventory Managment System</h3>
+				<a href="https://github.com/KetteiPrOt/sysliquor" class="project">
+					<img class="image" src="media/projects/liquorStore.jpg" alt="SysLicor project image"> 
+					<h3 class="project-name">Inventory Managment System</h3>
 					<p class="paragraph">Tailwind - Blade - PHP - Laravel - SQL</p>
 				</a>
 			</div>
 		</section>
 		<section class="contact">
 			<h2 class="title" id="contactSectionTitle">Contact</h2>
-			<form class="form">
-				<input class="name" type="text" placeholder="Your name" maxlength="50">
-				<input class="email" type="email" placeholder="Your email" maxlength="50">
-				<textarea class="text-area" placeholder="A message for me..." maxlength="500"></textarea>
+			<form class="form" id="contactForm">
+				<input class="name" type="text" placeholder="Your name" maxlength="50" name="your_name">
+				<input class="email" type="email" placeholder="Your email" maxlength="50" name="your_email">
+				<textarea class="text-area" placeholder="A message for me..." maxlength="500" name="message"></textarea>
 				<button class="btn-send" type="submit">Send</button>
 			</form>
+			<p class="success-send" id="successSend">Your message was sent!</p>
+			<p class="failed-send" id="failedSend">Error sending your message...</p>
 		</section>
 	</main>
 	<footer>

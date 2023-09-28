@@ -1,4 +1,4 @@
-main .my-proyects {
+main .my-projects {
 	padding-top: 100px;
 	padding-bottom: 75px;
 	text-align: center;
@@ -8,7 +8,7 @@ main .web-design { background: #f2f2f2; }
 
 main .web-development { background: #fff; padding-bottom: 25px; }
 
-main .my-proyects .title {
+main .my-projects .title {
 	color: #323068;
 	font-weight: 400;
 	font-size: 35px;
@@ -16,7 +16,7 @@ main .my-proyects .title {
 	cursor: default;
 }
 
-main .my-proyects .proyects {
+main .my-projects .projects {
 	width: 80%;
 	margin: 0 10%;
 	/*CSS Grid*/
@@ -26,32 +26,32 @@ main .my-proyects .proyects {
 	grid-gap: 30px;
 }
 
-main .my-proyects .proyects .proyect {
+main .my-projects .projects .project {
 	text-decoration: none;
 	transition-property: all;
 	transition-timing-function: ease;
 	transition-duration: 1s;
 }
 
-main .my-proyects .proyects .proyect:hover {
+main .my-projects .projects .project:hover {
 	transform: scale(1.1, 1.1);
 }
 
-main .my-proyects .proyects .proyect .image {
+main .my-projects .projects .project .image {
 	width: 100%;
 	border: 2px solid rgba(73, 163, 214, 0.5);
 	border-radius: 5px;
 	margin-bottom: 25px;
 }
 
-main .my-proyects .proyects .proyect .proyect-name {
+main .my-projects .projects .project .project-name {
 	color: rgba(73, 163, 214, 1);
 	font-weight: 400;
 	font-size: 19px;
 	margin-bottom: 25px;
 }
 
-main .my-proyects .proyects .proyect .paragraph {
+main .my-projects .projects .project .paragraph {
 	font-size: 13px;
 	opacity: 0.5;
 }

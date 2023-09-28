@@ -87,3 +87,13 @@ main .contact .form .btn-send {
 main .contact .form .btn-send:hover {
 	background: #387bea;
 }
+
+main .contact .success-send {
+	color: green;
+	display: none;
+}
+
+main .contact .failed-send {
+	color: red;
+	display: none;
+}

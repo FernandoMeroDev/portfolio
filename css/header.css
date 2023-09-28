@@ -12,11 +12,8 @@ header {
 
 header .navigation {
 	padding-top: 45px;
-	margin-bottom: 45px;
-	margin-bottom: 40px;
+	padding-bottom: 45px;
 	margin-right: 10%;
-	position: sticky;
-	top: 0;
 	align-self: flex-end;
 }
 
