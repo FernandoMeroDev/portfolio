@@ -11,9 +11,12 @@ header {
 
 
 header .navigation {
-	margin: 45px 0;
+	padding-top: 45px;
+	margin-bottom: 45px;
 	margin-bottom: 40px;
 	margin-right: 10%;
+	position: sticky;
+	top: 0;
 	align-self: flex-end;
 }
 

@@ -3,17 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Joel Mero -> Mis Proyectos</title>
+	<title>Fernando Mero -> My Proyects</title>
 	<link rel="icon" href="media/icon.png">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="styles.css">
+	<script src="js/script.js" defer></script>
 </head>
 <body>
 	<header>
 		<nav class="navigation">
-			<a class="link" href="#">About</a>
-			<a class="link" href="#">My Proyects</a>
-			<a class="link" href="#">Contact</a>
+			<a class="link" id="aboutLink" href="#about">About</a>
+			<a class="link" id="myProjectsLink" href="#myProjects">My Projects</a>
+			<a class="link" id="contactLink" href="#contact">Contact</a>
 		</nav>
 		<div class="name">
 			<h1 class="title">Fernando Mero</h1>
@@ -22,45 +23,69 @@
 	</header>
 	<main>
 		<section class="about">
+			<!-- My Photo -->
 			<img class="image" src="media/transparencia.png" alt="My Photo">
 			<article class="article">
-				<h2 class="title">About me</h2>
+				<h2 class="title" id="aboutSectionTitle">About me</h2>
 				<p class="paragraph">
 					I help interested and innovative clients <a class="link" href="https://www.workana.com/freelancer/6c171c074d558a9e217924f407440f4a">around the world</a> to create or modify applications and websites that increase the growth of their businesses, so they can have more stability and autonomy in their lives doing what they are passionate about :)
 				</p>
 			</article>
 		</section>
-		<section class="my-proyects">
-			<h2 class="title">My Web Desing Proyects</h2>
+		<section class="my-proyects web-design">
+			<h2 class="title" id="myProjectsSectionTitle">My Web Desing Proyects</h2>
 			<div class="proyects">
-				<!-- Proyect 1 -->
-				<a href="https://ketteiprot.github.io/CSSpracticaDos/" class="proyect">
-					<img class="image" src="media/proyects/css-dos.jpg" alt="Proyecto Dos de CSS3"> 
+				<!-- Project -->
+				<a href="https://ketteiprot.github.io/HolaMundoWebCopy/" class="proyect">
+					<img class="image" src="media/proyects/HolaMundoWebCopy.jpg" alt="Proyecto Dos de CSS3"> 
 					<h3 class="proyect-name">Layout of a Blog</h3>
 					<p class="paragraph">HTML - CSS - Flexbox - Grid</p>
 				</a>
-				<!-- Proyect 2 -->
-				<a href="https://ketteiprot.github.io/CSSpracticaUno/" class="proyect">
-					<img class="image" src="media/proyects/css-uno.jpg" alt="Proyecto Uno de CSS3"> 
+				<!-- Project -->
+				<a href="https://ketteiprot.github.io/FalconMastersWebCopy/" class="proyect">
+					<img class="image" src="media/proyects/FalconMastersWebCopy.jpg" alt="Proyecto Uno de CSS3"> 
 					<h3 class="proyect-name">Layout of a Courses Platform</h3>
 					<p class="paragraph">HTML - CSS - Flexbox - Grid</p>
 				</a>
-				<!-- Proyect 3 -->
-				<a href="https://ketteiprot.github.io/proyect_2/" class="proyect">
-					<img class="image" src="media/proyects/proyecto-dos.jpg" alt="Proyecto Blog de Armas"> 
+				<!-- Project -->
+				<a href="https://ketteiprot.github.io/DilanRomero/" class="proyect">
+					<img class="image" src="media/proyects/DilanRomero.jpg" alt="Landing Page project image"> 
+					<h3 class="proyect-name">Design of a Landing Page</h3>
+					<p class="paragraph">HTML - CSS - JS - Flexbox - Grid</p>
+				</a>
+				<!-- Project -->
+				<a href="https://ketteiprot.github.io/weapons/" class="proyect">
+					<img class="image" src="media/proyects/weapons.jpg" alt="Weapons Gallery project image"> 
 					<h3 class="proyect-name">Design of a Weapons Gallery</h3>
 					<p class="paragraph">HTML - CSS - JS - Bootstrap 5</p>
 				</a>
-				<!-- Proyect 4 -->
-				<a href="https://ketteiprot.github.io/proyect_1/" class="proyect">
-					<img class="image" src="media/proyects/proyecto-uno.jpg" alt="Proyecto Galeria de Girls Frontline"> 
+				<!-- Project -->
+				<a href="https://ketteiprot.github.io/AnimeGallery/" class="proyect">
+					<img class="image" src="media/proyects/AnimeGallery.jpg" alt="Anime Gallery project image"> 
 					<h3 class="proyect-name">Design of a Anime Gallery</h3>
-					<p class="paragraph">HTML - CSS - JS</p>
+					<p class="paragraph">HTML - CSS - JS - Flexbox</p>
+				</a>
+				<!-- Project -->
+				<a href="https://ketteiprot.github.io/ittlc/" class="proyect">
+					<img class="image" src="media/proyects/ittlc.jpg" alt="Anime Gallery project image"> 
+					<h3 class="proyect-name">Design of a institutional page</h3>
+					<p class="paragraph">HTML - CSS - JS - Flexbox - Grid</p>
+				</a>
+			</div>
+		</section>
+		<section class="my-proyects web-development">
+			<h2 class="title">My Web Development Proyects</h2>
+			<div class="proyects">
+				<!-- Project -->
+				<a href="https://ketteiprot.github.io/ittlc/" class="proyect">
+					<img class="image" src="media/proyects/liquorStore.jpg" alt="SysLicor project image"> 
+					<h3 class="proyect-name">Inventory Managment System</h3>
+					<p class="paragraph">Tailwind - Blade - PHP - Laravel - SQL</p>
 				</a>
 			</div>
 		</section>
 		<section class="contact">
-			<h2 class="title">Contact</h2>
+			<h2 class="title" id="contactSectionTitle">Contact</h2>
 			<form class="form">
 				<input class="name" type="text" placeholder="Your name" maxlength="50">
 				<input class="email" type="email" placeholder="Your email" maxlength="50">

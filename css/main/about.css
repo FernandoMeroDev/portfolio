@@ -14,6 +14,11 @@ main .about .image {
 	bottom: 75px;
 }
 
+main .about .image:hover {
+	box-shadow: 0 0 0 5px rgba(255,255,255,1);
+	transform: scale(1.1, 1.1);
+}
+
 main .about .article {
 	text-align: center;
 	padding: 0 20%;
@@ -27,6 +32,7 @@ main .about .article .title {
 	font-weight: 400;
 	font-size: 35px;
 	margin-bottom: 50px;
+	cursor: default;
 }
 
 main .about .article .paragraph {

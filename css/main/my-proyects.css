@@ -1,9 +1,13 @@
 main .my-proyects {
-	background: #f2f2f2;
 	padding-top: 100px;
 	padding-bottom: 75px;
 	text-align: center;
 }
+
+main .web-design { background: #f2f2f2; }
+
+main .web-development { background: #fff; padding-bottom: 25px; }
+
 main .my-proyects .title {
 	color: #323068;
 	font-weight: 400;
