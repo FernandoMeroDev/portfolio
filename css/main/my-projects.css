@@ -39,6 +39,24 @@ main .my-projects .projects .project:hover {
 
 main .my-projects .projects .project .github-link {
 	text-decoration: none;
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: center;
+}
+
+main .my-projects .projects .project .github-link:hover::after,
+main .my-projects .projects .project .github-link:focus::after {
+	content: "See the code in github! :)";
+	color: black;
+	background-color: #fff;
+	font-size: 13px;
+	min-width: 200px;
+	padding: 12px;
+	border: 1px rgba(73, 163, 214, 1) solid;
+	border-radius: 10px;
+	margin-top: 40px;
+	position: absolute;
+	z-index: 1;
 }
 
 main .my-projects .projects .project .image {
@@ -52,7 +70,6 @@ main .my-projects .projects .project .github-link .project-name {
 	color: rgba(73, 163, 214, 1);
 	font-weight: 400;
 	font-size: 19px;
-	margin-bottom: 25px;
 }
 
 main .my-projects .projects .project .github-link .project-name:hover {
