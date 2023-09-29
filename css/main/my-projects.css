@@ -37,6 +37,10 @@ main .my-projects .projects .project:hover {
 	transform: scale(1.1, 1.1);
 }
 
+main .my-projects .projects .project .github-link {
+	text-decoration: none;
+}
+
 main .my-projects .projects .project .image {
 	width: 100%;
 	border: 2px solid rgba(73, 163, 214, 0.5);
@@ -44,11 +48,15 @@ main .my-projects .projects .project .image {
 	margin-bottom: 25px;
 }
 
-main .my-projects .projects .project .project-name {
+main .my-projects .projects .project .github-link .project-name {
 	color: rgba(73, 163, 214, 1);
 	font-weight: 400;
 	font-size: 19px;
 	margin-bottom: 25px;
+}
+
+main .my-projects .projects .project .github-link .project-name:hover {
+	text-decoration: underline;
 }
 
 main .my-projects .projects .project .paragraph {
