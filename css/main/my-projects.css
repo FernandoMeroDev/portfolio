@@ -46,7 +46,7 @@ main .my-projects .projects .project .github-link {
 
 main .my-projects .projects .project .github-link:hover::after,
 main .my-projects .projects .project .github-link:focus::after {
-	content: "See the code in github! :)";
+	content: "See the code in github :)";
 	color: black;
 	background-color: #fff;
 	font-size: 13px;
