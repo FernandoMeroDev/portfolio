@@ -137,7 +137,7 @@
 		font-size: 15px;
 	}
 
-	main .about .image {
+	main .about .loadedProjectImage {
 		width: 120px; height: 120px;
 		/* Posicionar */
 		bottom: 60px;
@@ -161,7 +161,7 @@
 		margin-bottom: 30px;
 	}
 
-	main .my-projects .projects .project .image {
+	main .my-projects .projects .project .loadedProjectImage {
 		margin-bottom: 15px;
 	}
 
@@ -190,7 +190,7 @@
 		font-size: 14px;
 	}
 
-	footer .social-network .image {
+	footer .social-network .loadedProjectImage {
 		width: 20px;
 		vertical-align: top;
 	}

@@ -19,7 +19,7 @@ main .about .loading-image svg {
 	border-radius: 50%;
 }
 
-main .about .image {
+main .about .loaded-image {
 	display: none;
 	width: 150px; height: 150px;
 	border-radius: 50%;
@@ -32,7 +32,7 @@ main .about .image {
 }
 
 main .about .loading-image:hover,
-main .about .image:hover {
+main .about .loaded-image:hover {
 	box-shadow: 0 0 0 5px rgba(255,255,255,1);
 	transform: scale(1.1, 1.1);
 }

@@ -1,10 +1,24 @@
 /* Loading images functionality
     This script optimize image loading
 */
-const loadingImage = document.getElementById('loadingImage'),
-      image = document.getElementById('image');
 
-image.addEventListener('load', () => {
-    image.style.display = 'block';
-    loadingImage.style.display = 'none';
-});
+function optimizeLoad(loadingElement, loadedElement){
+    loadedElement.addEventListener('load', () => {
+        loadedElement.style.display = 'block';
+        loadingElement.style.display = 'none';
+    });
+}
+
+// Optimize Photo load
+const loadingPhoto = document.getElementById('loadingPhoto'),
+      loadedPhoto = document.getElementById('loadedPhoto');
+
+optimizeLoad(loadingPhoto, loadedPhoto);
+
+// Optimize Projects Images load
+const loadingImages = document.getElementsByClassName('loadingProjectImage'),
+      loadedImages = document.getElementsByClassName('loadedProjectImage');
+
+for(let i = 0; i < loadedImages.length; i++){
+    optimizeLoad(loadingImages[i], loadedImages[i]);
+}
