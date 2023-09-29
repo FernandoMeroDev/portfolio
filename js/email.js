@@ -1,3 +1,6 @@
+/* Contact Form Functionality
+    This script makes work the form contact via emailjs service
+*/
 const contactForm = document.getElementById('contactForm');
 
 contactForm.addEventListener('submit', function(event) {
