@@ -22,3 +22,11 @@ const loadingImages = document.getElementsByClassName('loadingProjectImage'),
 for(let i = 0; i < loadedImages.length; i++){
     optimizeLoad(loadingImages[i], loadedImages[i]);
 }
+
+// Optimize Icons load
+const loadingIcons = document.getElementsByClassName('loading-icon'),
+      loadedIcons = document.getElementsByClassName('loaded-icon');
+
+for(let i = 0; i < loadedIcons.length; i++){
+    optimizeLoad(loadingIcons[i], loadedIcons[i]);
+}

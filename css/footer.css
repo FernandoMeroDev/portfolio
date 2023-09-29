@@ -14,7 +14,16 @@ footer .social-network {
 	transition: 0.3s all ease;
 }
 
-footer .social-network .image {
+footer .social-network .loading-icon {
+	width: 30px;
+	aspect-ratio: 1 / 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .social-network .loaded-icon {
+	display: none;
 	width: 30px;
 	vertical-align: top;
 }
