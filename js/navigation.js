@@ -20,7 +20,8 @@ const aboutLink = document.getElementById('aboutLink'),
 // Document Elements
 const aboutSectionTitle = document.getElementById('aboutSectionTitle'),
       myProjectsSectionTitle = document.getElementById('myProjectsSectionTitle'),
-      contactSectionTitle = document.getElementById('contactSectionTitle');      
+      contactSectionTitle = document.getElementById('contactSectionTitle'),
+      footerSection = document.getElementById('footerSection'); 
 
 // Event Listeners
 aboutLink.addEventListener('click', () => {
@@ -32,5 +33,5 @@ myProjectsLink.addEventListener('click', () => {
 })
 
 contactLink.addEventListener('click', () => {
-    scrollWindowTo(contactSectionTitle);
+    scrollWindowTo(footerSection);
 })
