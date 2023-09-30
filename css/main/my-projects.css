@@ -6,7 +6,11 @@ main .my-projects {
 
 main .web-design { background: #f2f2f2; }
 
-main .web-development { background: #fff; padding-bottom: 25px; }
+main .web-development {
+	background: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 
 main .my-projects .title {
 	color: #323068;
