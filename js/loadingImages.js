@@ -3,10 +3,15 @@
 */
 
 function optimizeLoad(loadingElement, loadedElement){
-    loadedElement.addEventListener('load', () => {
+    if(loadedElement.complete){
         loadedElement.style.display = 'block';
         loadingElement.style.display = 'none';
-    });
+    } else {
+        loadedElement.addEventListener('load', () => {
+            loadedElement.style.display = 'block';
+            loadingElement.style.display = 'none';
+        });
+    }
 }
 
 // Optimize Photo load
